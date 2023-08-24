@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from rest_tms.models import Product
+
+admin.site.register(Product)
